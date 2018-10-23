@@ -14,7 +14,7 @@ $ npm install --global alfred-typograph
 
 ## Usage
 
-In Alfred, type `typograph`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `ty`, <kbd>Enter</kbd>, and your query.
 
 
 ## License
