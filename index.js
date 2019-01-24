@@ -20,9 +20,9 @@ fetch(
   .then(body => {
     alfy.output([
       {
-        title: body.replace(/<[^>]*>/g, '').replace(/и&#774;/g, 'й'),
+        title: body.replace(/<[^>]*>/g, '').replace(/и&#774;/g, 'й').replace(/е&#776;/g, 'ё'),
         subtitle:  "CMD + C to copy...",
-        arg: body.replace(/<[^>]*>/g, '').replace(/и&#774;/g, 'й'),
+        arg: body.replace(/<[^>]*>/g, '').replace(/и&#774;/g, 'й').replace(/е&#776;/g, 'ё'),
       },
     ]);
   })
